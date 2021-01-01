@@ -9,4 +9,6 @@ docker run= docker create + docker start
 -a to show what is running inside a container\
 -i to perform I/O operation in container\
 -t to do prettier\
-
+`docker run image_name`\
+`docker ps` all running containers\
+`docker ps -all` all running and exit containers
