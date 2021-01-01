@@ -11,4 +11,10 @@ docker run= docker create + docker start
 -t to do prettier\
 `docker run image_name`\
 `docker ps` all running containers\
-`docker ps -all` all running and exit containers
+`docker ps -all` all running and exit containers\
+`docker stop container_id` to stop container\
+`docker kill container_id` to forcefully stop container\
+`docker logs container_id` to see what is running inside container\
+`docker exec -i -t container_id sh` helps ot write code inside container\
+`docker images` helps to show all images\
+`docker build .`
