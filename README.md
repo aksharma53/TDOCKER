@@ -17,6 +17,8 @@ docker run= docker create + docker start\
 `docker stop container_id` to stop container\
 `docker kill container_id` to forcefully stop container\
 `docker logs container_id` to see what is running inside container\
-`docker exec -i -t container_id sh` helps ot write code inside container\
+`docker exec -i -t container_id sh` helps ot write another code command inside running container\
 `docker images` helps to show all images\
-`docker build .`
+`docker build .`\
+`docker build -t alphasaurs/node-app:2.3.0 .`docker build with custom tag\
+`docker run -p 8080:8080 alphasaurs/node-app:latest` port mapping \
